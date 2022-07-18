@@ -31,7 +31,8 @@ passwordInput.addEventListener("input", (e) => {
 })
 
 confirmPasswordInput.addEventListener("input", (e) => {
- /* copied the same code inside the previous event listener here */
+    if (!passwordInput.value) return
+ /* same logic in previous listener pasted here*/
 })
 ```
 
