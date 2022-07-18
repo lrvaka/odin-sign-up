@@ -14,7 +14,7 @@ This is a solution to the [Sign-up form project on Odin Project](https://www.the
 
 ## Overview
 
-Completion of the Odin Project Sign Up form project in the Intermediate HTML and CSS section. The exercise was not difficult, I copied the design given in the instructions. My favorite part of the exercise was implementing password validation using Javascript.
+Completion of the Odin Project Sign Up form project in the Intermediate HTML and CSS section. The exercise was straightforward, I copied the design given in the instructions. My favorite part of the exercise was implementing password validation using Javascript:
 
 ```js
 passwordInput.addEventListener("input", (e) => {
