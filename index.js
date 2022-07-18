@@ -18,6 +18,7 @@ passwordInput.addEventListener("input", (e) => {
 })
 
 confirmPasswordInput.addEventListener("input", (e) => {
+  if (passwordInput.value) return
   if (passwordInput.value != confirmPasswordInput.value) {
     passwordMsg.style.opacity = 1
     passwordInput.classList.add("isInvalid")
